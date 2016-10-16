@@ -12,3 +12,9 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+##Installing plugins
+	cd ~/.vim
+	mkdir ~/.vim/bundle
+	git submodule add http://github.com/xyz/abc.git bundle/abc
+	git add .
+	git commit -m "Installed "abc.vim" bundle as submodules 
