@@ -14,3 +14,7 @@ let g:tex_flavor='latex'
 set ruler
 set laststatus=2
 set number
+let g:tex_fast = "cmMprs"
+let g:tex_conceal = ""
+let g:tex_fold_enabled = 0
+let g:tex_comment_nospell = 1
